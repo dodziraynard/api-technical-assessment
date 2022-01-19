@@ -8,11 +8,11 @@
 ## Installation
 
 ```bash
-    git clone ...
+    git clone https://gitlab.com/dodzireynard/api-technical-assessment.git
     cd 4thirapi/solution
 ```
 
-## Running Tests
+## Run Tests
 
 Run the command below while in the `4thirapi/solution` directory
 
@@ -20,7 +20,7 @@ Run the command below while in the `4thirapi/solution` directory
 python -m unittest discover -s tests
 ```
 
-## Running without Docker
+## Run without Docker
 
 Run the command below while in the `4thirapi/solution` directory
 
@@ -31,7 +31,7 @@ Run the command below while in the `4thirapi/solution` directory
 
 Visit http://127:0.0.1:8000/docs
 
-## Running using Docker
+## Run using Docker
 
 Run the command below while in the `4thirapi` directory
 
