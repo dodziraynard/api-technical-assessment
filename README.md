@@ -30,7 +30,7 @@ Run the command below while in the `api-technical-assessment/solution` directory
     uvicorn app.main:app --reload # Run local dev  server.
 ```
 
-Visit http://127:0.0.1:8000/docs
+Visit [http://127:0.0.1:8000/docs](http://127:0.0.1:8000/docs)
 
 ## Run using Docker
 
@@ -40,4 +40,4 @@ Run the command below while in the `api-technical-assessment` directory
 docker compose -f docker-compose.yml up --build
 ```
 
-Visit http://localhost:8000/docs
+Visit [http://localhost:8000/docs](http://localhost:8000/docs)
