@@ -1,12 +1,11 @@
 import unittest
 from pathlib import Path
 
+from app.db import Base
+from app.main import app, get_db
 from fastapi.testclient import TestClient
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-
-from app.db import Base
-from app.main import app, get_db
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 

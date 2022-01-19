@@ -1,7 +1,6 @@
-from fastapi import Depends, FastAPI, HTTPException
-from sqlalchemy.orm import Session
-
 from app import crud, schemas
+from fastapi import Depends, FastAPI
+from sqlalchemy.orm import Session
 
 from .db import SessionLocal
 
