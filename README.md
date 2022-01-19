@@ -9,12 +9,12 @@
 
 ```bash
     git clone https://gitlab.com/dodzireynard/api-technical-assessment.git
-    cd 4thirapi/solution
+    cd api-technical-assessment/solution
 ```
 
 ## Run Tests
 
-Run the command below while in the `4thirapi/solution` directory
+Run the command below while in the `api-technical-assessment/solution` directory
 
 ```bash
 python -m unittest discover -s tests
@@ -22,7 +22,7 @@ python -m unittest discover -s tests
 
 ## Run without Docker
 
-Run the command below while in the `4thirapi/solution` directory
+Run the command below while in the `api-technical-assessment/solution` directory
 
 ```bash
     alembic upgrade head # Run DB migrations.
@@ -33,7 +33,7 @@ Visit http://127:0.0.1:8000/docs
 
 ## Run using Docker
 
-Run the command below while in the `4thirapi` directory
+Run the command below while in the `api-technical-assessment` directory
 
 ```
 docker compose -f docker-compose.yml up --build
