@@ -10,6 +10,7 @@
 ```bash
     git clone https://gitlab.com/dodzireynard/api-technical-assessment.git
     cd api-technical-assessment/solution
+    pip install -r requirements.txt
 ```
 
 ## Run Tests
