@@ -34,10 +34,11 @@ Visit [http://127:0.0.1:8000/docs](http://127:0.0.1:8000/docs)
 
 ## Run using Docker
 
-Run the command below while in the `api-technical-assessment` directory
+Run the command below while in the `api-technical-assessment` directory.
+Please make sure you have docker and docker compose setup and running.
 
 ```
-docker compose -f docker-compose.yml up --build
+docker compose -f ../docker-compose.yml up --build
 ```
 
 Visit [http://localhost:8000/docs](http://localhost:8000/docs)
