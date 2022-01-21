@@ -2,13 +2,13 @@
 
 ## Languages and Libraries
 
-1. Python
+1. Python 3.9+
 2. Fast API
 
 ## Installation
 
 ```bash
-    git clone https://gitlab.com/dodzireynard/api-technical-assessment.git
+    git clone https://github.com/dodziraynard/api-technical-assessment.git
     cd api-technical-assessment/solution
     pip install -r requirements.txt
 ```
